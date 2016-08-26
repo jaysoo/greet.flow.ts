@@ -1,0 +1,16 @@
+{
+  "name": "greet",
+  "version": "1.0.0",
+  "description": "A small example of writing Typescript code that can be type checked with Flow.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && flow check"
+  },
+  "author": "Jack Hsu <jack.hsu@gmail.com> (http://jaysoo.ca/)",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "0.31.1",
+    "typescript": "1.8.10"
+  }
+}
